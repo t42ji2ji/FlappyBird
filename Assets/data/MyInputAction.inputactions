@@ -1,0 +1,84 @@
+{
+    "name": "MyInputAction",
+    "maps": [
+        {
+            "name": "Game Play",
+            "id": "e8e27e33-ad9c-481a-9377-0e996140df53",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "367f8110-4bc6-4ad8-8b2c-97b431782635",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d0c81f98-cd63-486a-8a17-48b6e39c6d59",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2805951-328f-4abb-b11c-a8ae0fda06c4",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "cb91521f-57ba-42e9-bc28-c94e1116c685",
+            "actions": [
+                {
+                    "name": "Restart",
+                    "type": "Button",
+                    "id": "025bba40-29b5-4dbf-a326-d1138b1e18ca",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "767ceed3-4025-47fe-b9a0-d9f44258d829",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "31a6e987-07bd-4a88-bd3a-4870a89c99fd",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
